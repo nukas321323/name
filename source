@@ -1,5 +1,16 @@
+--▄████████ ▄██   ▄   ▀████    ▐████▀ 
+--███    ███ ███   ██▄   ███▌   ████▀  
+--███    █▀  ███▄▄▄███    ███  ▐███    
+--███        ▀▀▀▀▀▀███    ▀███▄███▀    
+--▀██████████  ▄██ ███    ████▀██▄     
+  --     ███ ███   ███   ▐███  ▀███    
+-- ▄█    ███ ███   ███  ▄███     ███▄  
+--▄████████▀   ▀█████▀  ████       ███▄ 
+                                     
+ 
+---MAIN MORE---  
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SYX", "LightTheme")  ---if you want a diffrent theme pick here! (DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel,Synapse)
+local Window = Library.CreateLib("SYX", "LightTheme")  --if you want a diffrent theme pick here! (DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel,Synapse)
 
 -- MAIN --
 local Main = Window:NewTab("Main")
@@ -83,3 +94,13 @@ MainSection:NewLabel("If you want to execute thhe main scripts please click on t
 local Credits = Window:NewTab("Credits")
 CreditsSection:NewLabel("Main Credits are for SYX#7873")
 
+ --________       ___    ___ ___    ___  
+--|\   ____\     |\  \  /  /|\  \  /  /| 
+--\ \  \___|_    \ \  \/  / | \  \/  / / 
+-- \ \_____  \    \ \    / / \ \    / /  
+--  \|____|\  \    \/  /  /   /     \/   
+  --  ____\_\  \ __/  / /    /  /\   \   
+   --|\_________\\___/ /    /__/ /\ __\  
+   --\|_________\|___|/     |__|/ \|__|  
+                                      
+                                      
