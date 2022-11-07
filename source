@@ -6,11 +6,12 @@
   --     ███ ███   ███   ▐███  ▀███    
 -- ▄█    ███ ███   ███  ▄███     ███▄  
 --▄████████▀   ▀█████▀  ████       ███▄ 
-                                     
+
+print("Thank you for using SYX menu!")                                   
  
 ---MAIN MORE---  
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SYX", "BloodTheme")  --if you want a diffrent theme pick here! (DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel,Synapse)
+local Window = Library.CreateLib("I SYX I", "BloodTheme")  --if you want a diffrent theme pick here! (DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel,Synapse)
 
 -- MAIN --
 local Main = Window:NewTab("Main")
@@ -85,14 +86,27 @@ ScriptsSection:NewButton("Troll MENU", "LOL NUB", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
 end)
 
+ScriptsSection:NewLabel("AUTO FARM ONLY FOR AIRPLANE SIMULATOR")
+
+ScriptsSection:NewButton("AUTO FARM FOR AIRPLANE SIMULATOR", "kys", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nukas321323/name/main/YES"))()
+end)
 
 --Instructions--
 MainSection:NewLabel("Hello! if you executed this script Please red this!")
 MainSection:NewLabel("If you want to execute thhe main scripts please click on the Script TAB!")
+MainSection:NewLabel("if you want a diffrent theme pick here!")
+MainSection:NewLabel(" DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel,Synapse")
 
 -- Credits --
 local Credits = Window:NewTab("Credits")
-CreditsSection:NewLabel("Main Credits are for SYX#7873")
+local CreditsSection = Credits:NewSection("!Credits!")
+CreditsSection:NewLabel("Main Credits are for SYX#7873 or bum_BAD")
+
+MainSection:NewKeybind("F to open UI", "CLIKC ON F", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
 
  --________       ___    ___ ___    ___  --
 --|\   ____\     |\  \  /  /|\  \  /  /| --
@@ -103,4 +117,4 @@ CreditsSection:NewLabel("Main Credits are for SYX#7873")
    --|\_________\\___/ /    /__/ /\ __\  --
    --\|_________\|___|/     |__|/ \|__|  --
                                       
-                                      
+
