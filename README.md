@@ -1,4 +1,3 @@
--- Created By Nyok, Discord: discord.gg/zSnpS53az5
 
 getgenv().autoFarm = true
 getgenv().autoPlaneName = "Cessna Skyhawk" -- Case Sensitive // THIS IS NOT NEEDED BUT IF THE PLANE DESPAWNS THISLL HELP
